@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf8'?>
+<parameters>
+    <datasetbuilder>
+        <frequency>0</frequency>  <!-- 0 = manual capture, >1 = hz framerate for constructing the dataset -->
+        <dsfolder>dataset</dsfolder>  <!-- Folder where the images are stored -->
+        <videopath>video.mp4</videopath>  <!-- video file, 0 or empty will create the handler for the first camera -->
+        <width>320</width>  <!-- Width of the output image -->
+        <height>240</height>  <!-- Height of the output image -->
+        <!-- Supported Formats conversion... -->
+        <!-- BGR, YCRCB, HSV, LAB, GRAY, RGB-->
+        <colorspace>GRAY</colorspace>
+    </datasetbuilder>
+</parameters>
